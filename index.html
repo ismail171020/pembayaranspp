@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li><a href="#" class="active">Beranda</a></li>
+                <li><a href="#">Analisis</a></li>
+                <li><a href="#">Pengguna</a></li>
+                <li><a href="#">Pengaturan</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Selamat Datang di Dashboard</h1>
+            </header>
+            
+            <section class="content-cards">
+                <div class="card">
+                    <h3>Total Penjualan</h3>
+                    <p id="total-sales">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Pengguna Baru</h3>
+                    <p id="new-users">Loading...</p>
+                </div>
+                <div class="card">
+                    <h3>Kunjungan Website</h3>
+                    <p id="website-visits">Loading...</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
